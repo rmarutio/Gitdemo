@@ -1,0 +1,59 @@
+Git >> Version Control
+
+
+
+    v1
+    v2
+    v3
+new v4
+
+>> It is dostributed (on Cloud)
+>> Collaboration
+>> Tracking Changes
+>> Recovery
+
+
+https://git-scm.com/downloads
+
+GitHub
+BitBucket
+GitLabs
+GitPod
+
+
+>> For 1st time need to configure github in our system
+git config --global user.name "rmarutio"
+git config --global user.email "sudiptodetective@gmail.com"
+
+git config --global color.ui auto
+
+Mandatory Commands:
+>> git init
+
+Quick Shortcut (Most Used)
+	1.	Finder খুলো → যেকোনো folder এ যাও।
+	2.	Keyboard এ একসাথে চাপো:
+Command (⌘) + Shift + . (ডট)
+	3.	Hidden ফোল্ডারগুলো সঙ্গে সঙ্গে দেখা যাবে।
+	4.	আবার একই shortcut চাপলে ওগুলো লুকিয়ে যাবে।
+
+
+>>git remote add origin https://github.com/rmarutio/Gitdemo.git
+
+git pull origin main
+
+>> To push files:
+
+git add 1_Funda 2_Git (file names)
+
+git add.
+
+git status
+git commit m "Initiate Message"
+git push
+
+create a new branch
+git checkout -b "branch_name"
+
+Switch the branch
+git checkout "branch_name_which_needs_to_be_opened"
